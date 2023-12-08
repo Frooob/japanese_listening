@@ -1,0 +1,22 @@
+Prompt:
+
+I want you to generate example sentences to practice Japanese. Please use only the vocabulary and grammar that I provide. Names for possible Protagonists could be Takeshi, Mary, Robert, Mr. Yamashita. 
+
+Please generate the sentences in a csv like format with the two columns "Japanese" and "English".
+
+Grammar:
+
+Lection1:
+
+Usage of the word です to say "it is...".
+Example: 学生です (I am a student)
+
+Changing the topic with the particle "は".
+Example: 山下さんは先生です (Mr. Yamashita is a teacher)
+
+Asking questions by adding か at the end of a statement
+Example: 今何時ですか　(What time is it now?)
+
+Using the particle の to combine several nouns.
+Example: 日本の大学　(a college in Japan)
+

@@ -1,0 +1,23 @@
+Japanese,English,tts_file
+こんいちは、私はロボットです。,"Hello, I am a robot.",'./samples/out_8d2dba173bef4786bad505bb08e53235.mp3'
+1234,1234,samples/out_d78f4c9ae46043869ef990c22d275e56.mp3
+学生です,It's a student.,./samples/out_59e771fce8c04feb93d7f219eaf57e99.mp3
+12時半です。,12:30,./samples/out_e5e024f63506461180e5dd8dd5830276.mp3
+479,479,./samples/out_9f5032cde05848909ffed5149f09c635.mp3
+103721,103721,./samples/out_e74eb1e2c14a4a528316a4d9b05ab480.mp3
+17,17,./samples/out_2e389a4dde294c1d801f6d651e2d4caa.mp3
+23,,./samples/out_54d396dd349d4f3687ef72833406f49b.mp3
+お父さんは会社員ですか。,Is your father a company employee?,./samples/out_afeaad0f7a4241c5b0069c15304f13fe.mp3
+すみません。郵便局はどこですか。,Excuse me. Where is the post office?,./samples/out_56159d4d41a24a718f76e01949eeed0b.mp3
+私は日本語を勉強しています。,I'm studying Japanese.,./samples/out_e093fe92957140379e55c68ff9648467.mp3
+それはソラさんの本です。,That is Sora's book.,./samples/out_6d8fd3eb649b4b41a78621b6ec0d1b95.mp3
+私は日本人です。,I'm Japanese.,./samples/out_1a7b3fab759048dda939b79b78603931.mp3
+これは誰のカバンですか。,Whose bag is this?,./samples/out_eba65efecd1e4210a636845ae558a683.mp3
+山田さんは学生じゃないです。,Yamada-san is not a student.,./samples/out_8d1ee6901c194786807d11a4110e97a2.mp3
+メアリーさんはアメリカ人ですか。,Is Mary an American?,./samples/out_7c38d1b63c2b4823bedee952c969bb00.mp3
+武さんは大ガウ陰性じゃありません。,Take-san is not a university student.,./samples/out_8a67958bd95f46138b8b2109d3119438.mp3
+ロバートさんのせんこおは文学ですね。,"Robert's major is literature, isn't it?",./samples/out_d44f1ef80b094b1883e0bca238f68577.mp3
+これは肉じゃないですね。,"This is not meat, is it?",./samples/out_4c87e61ab52c405092f5c501f9fe66fb.mp3
+とんかつは魚じゃありませんですよ。,"Tonkatsu is not fish, you know.",./samples/out_8e8bfc081a754f319e4474bb1f38b901.mp3
+私は学生じゃありません。,I'm not a student.,./samples/out_33ef3aa49d09469b847bd5b5dfa0ec17.mp3
+ゆいさん もう日本人です,Yui is also Japanese.,./samples/out_e554e37b753c4ea782cece925370226c.mp3
