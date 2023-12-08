@@ -21,3 +21,74 @@ Japanese,English,tts_file
 とんかつは魚じゃありませんですよ。,"Tonkatsu is not fish, you know.",./samples/out_8e8bfc081a754f319e4474bb1f38b901.mp3
 私は学生じゃありません。,I'm not a student.,./samples/out_33ef3aa49d09469b847bd5b5dfa0ec17.mp3
 ゆいさん もう日本人です,Yui is also Japanese.,./samples/out_e554e37b753c4ea782cece925370226c.mp3
+A(M): こんにちは。木村たけしです。￥B(F):メアリいハーアトです。あのう、留学生ですか。￥A(M):いいえ、日本人です。￥B(F):そうですか。何年生ですか。￥A(M):四年生です。,"A(M): Hello. My name is Takeshi Kimura.;;B(F): I'm Mary Haat. Are you a foreign student?;;A(M):No, I am Japanese.;;B(F):I see. What grade are you in?;;A(M):I am in the fourth grade.",samples/out_6d83e618aa6142778f5fcc117d453b01.mp3
+A(F):すみません。これはいくらですか。￥B(M):それは３０００円です。￥A(F):高いですね。じゃあ、あの時計はいくらですか。￥B (M):あれは３５００円です。￥A (F):そうですか。あれも高いですね。￥B (M):これは１８００円ですよ。￥A (F):じゃあ、その時計おください。,"A(F):Excuse me. How much is this?;;B(M):That's 3,000 yen.;;A(F):That's expensive. Then, how much is that watch?;;B (M):That one is 3,500 yen.;;A (F):I see. That one is expensive too.;;B (M):This one is 1800 yen.;;A (F):Well, give me that watch, please.",./samples/out_43b426e504f04c94bd34704f4294bf25.mp3
+十,ten,./samples/out_2975db0cd1204a47bec183a33def316c.mp3
+948,948,./samples/out_2b8175d648e64de096109e9cb4d90218.mp3
+485,485,./samples/out_28778638b2e84bf5b1bba30127c157cc.mp3
+745,745,./samples/out_5043cd4892b346f28ddbd08c6d447dd4.mp3
+235,235,./samples/out_d4d1596fe58d47a4b62a1ecef1a3aa52.mp3
+360,360,./samples/out_1e1cc67f69d5466ca320ba99fcb3ab04.mp3
+810,810,./samples/out_db79253b53ea437d886ca5773fe24716.mp3
+288,288,./samples/out_a80b9cd0eaab4dda9756b850b6f666b6.mp3
+211,211,./samples/out_de85195ad6a14752ba28c785297beabc.mp3
+36,36,./samples/out_82f56d1246b44c93a1b3344feaa2ebca.mp3
+505,505,./samples/out_976c1c36ecf045b49c5097df3dff3963.mp3
+2082,2082,./samples/out_360dbb4ee3db47619f9ceff8544d3498.mp3
+2004,2004,./samples/out_463009ecbe99494185735a1ee708fc1a.mp3
+8707,8707,./samples/out_ae4353347a8e4d488d87b2f3dee6b6e1.mp3
+5648,5648,./samples/out_c8aded4b7b4f4285914dd30c7500875a.mp3
+4951,4951,./samples/out_860d5dfdc7f54e208c22659c023bcf1c.mp3
+8197,8197,./samples/out_017594f7ea7b4db1ae55c1a14ccfd72c.mp3
+6572,6572,./samples/out_200c5dadb2954a4080e8c4c649dece26.mp3
+1988,1988,./samples/out_bdad79bc113840a989af889b4ce222c5.mp3
+7370,7370,./samples/out_34f245f2c9c4405fa5d7344a39442c25.mp3
+3179,3179,./samples/out_49db08e684d94181826963bbd8ca8c91.mp3
+33459,33459,./samples/out_2d35925777e34a30bf9c492b2b8295c3.mp3
+80696,80696,./samples/out_eff194f055314d56aa5c6f8ab552df8c.mp3
+88395,88395,./samples/out_869d857273c74ed58330a2d67956f992.mp3
+31199,31199,./samples/out_14395aac49d8457daa293cccf2addef1.mp3
+70140,70140,./samples/out_01f193750c694233ad90ce15f1810a76.mp3
+89225,89225,./samples/out_6a6bdcdddad448b3b99d2517eedc21fa.mp3
+83551,83551,./samples/out_8686f3ae938a4e81b04366308671599b.mp3
+65561,65561,./samples/out_4d9fd19de64242119e56a0b7a186e6bc.mp3
+28197,28197,./samples/out_7ea7bcb338fc4a25b74afedb1685c670.mp3
+43008,43008,./samples/out_b9d73abd19c74261a41d5e0b4e48c11c.mp3
+午前5時34分,5:34 a.m.,./samples/out_816cb3e22cca46a9b4e82d76bd15ab1a.mp3
+午後3時半,3:30 p.m.,./samples/out_f02500f97ec846528437a884d0b6d57c.mp3
+午前3時19分。,3:19 a.m.,./samples/out_19a804eb7b56446babd683958f1e70ad.mp3
+午前6時,6 a.m.,./samples/out_bded895e96da4326a4f63d3a09457e35.mp3
+午前1時15分,1:15 a.m.,./samples/out_0b068eb93e4f4af08fee4c20ed3eb911.mp3
+午前9時2分,9:2 a.m.,./samples/out_d8ae362c36c846bb91823cb1821583d4.mp3
+午後5時10分,5:10 p.m.,./samples/out_fd2446e5c2b64a64aa239216b15fdd65.mp3
+午前7時,7 a.m.,./samples/out_e70bad48b42e4ae38909291578d3a885.mp3
+午前11時56分。,11:56 a.m.,./samples/out_3aeaafc49baa420aaace35d5a875f5e8.mp3
+午後11時54分,11:54 p.m.,./samples/out_3d27dcf228d54650b86c92a72939ed2b.mp3
+午前10時50分,10:50 a.m.,./samples/out_4c0ad4f26cec4bacad3eab9f63744108.mp3
+午前8時58分,8:58 a.m.,./samples/out_4ebcb81f18a34a9991d3e52da0a637c2.mp3
+午後5時半,5:30 p.m.,./samples/out_f1c17e65c7a54c77ba60755519830182.mp3
+午後1時26分,1:26 p.m.,./samples/out_ca84978ca6124e74a3a16972adc56f82.mp3
+午後8時27分,8:27 p.m.,./samples/out_cf156bb617544b2c85f712c2eb40466e.mp3
+午前6時,6 a.m.,./samples/out_eacef34480aa4ffbb284d3baa42d6b23.mp3
+午前9時27分。,9:27 a.m.,./samples/out_b83b45548c7a4068904c813a585471d5.mp3
+午前1時29分。,1:29 a.m.,./samples/out_07985528e65c4962b4f3fd9990af8c22.mp3
+午後10時36分,10:36 p.m.,./samples/out_84063921985e40b6b7b3021fa7a7f37b.mp3
+午後6時51分,6:51 p.m.,./samples/out_92275bfe8f114187930348beda7132f3.mp3
+午前11時18分。,11:18 a.m.,./samples/out_9fbdd4356d254e8295d4704583aa3783.mp3
+午後3時14分,3:14 p.m.,./samples/out_850ac682c78c48c392392888afe65beb.mp3
+午前3時20分,3:20 a.m.,./samples/out_beabf7ec7f004b018fff5d569543acbe.mp3
+午後4時47分,4:47 p.m.,./samples/out_13b4cb814b27405b9218e746cb2f7fca.mp3
+午後11時58分,11:58 p.m.,./samples/out_f47c1a04858344699577371efc98883f.mp3
+午後8時,8 p.m.,./samples/out_f3101e9a2a254836ba46d2511e17b895.mp3
+午前8時1分,8:1 a.m.,./samples/out_22a38463a75e4208a618334c934e1b2f.mp3
+午後8時40分,8:40 p.m.,./samples/out_06fc4c8fbb544735867df8cc7ae3d113.mp3
+午後3時57分,3:57 p.m.,./samples/out_909e4026ed7f4fde93ec81750453c573.mp3
+午前5時半,5:30 a.m.,./samples/out_50b14dd9699049309d1f1138f5c42b17.mp3
+午前1時32分。,1:32 a.m.,./samples/out_b0aaa9c245814dbaa6da5e4d2fb77705.mp3
+午前9時半,9:30 a.m.,./samples/out_fce81cb1ad844c55a91180bf499c7d82.mp3
+午前5時5分,5:5 a.m.,./samples/out_716804868eb9477286936fbf85e4738d.mp3
+午前6時14分。,6:14 a.m.,./samples/out_d0ccd97bc5ad44deb2d197c2de01eb29.mp3
+午後6時58分,6:58 p.m.,./samples/out_9e35913fbd8845caaf6881f5361104b6.mp3
+午後10時,10 p.m.,./samples/out_4675e4fc9d7c4be8a6cd195bf7b9a0f5.mp3
+午前7時24分。,7:24 a.m.,./samples/out_8a34c999c2bb400187d2ae31a00367be.mp3
+午前4時33分。,4:33 a.m.,./samples/out_db1e1eaedf5b48d6b5425b145cd1ebcf.mp3

@@ -1,2 +1,3 @@
 Japanese,English,tts_file
-"A(M): こんにちは。木村たけしです。￥B(W):メアリいハーアトです。", "A(M):Hello. I'm Kimura Takeshi.;;B(M):My name is Mary Hart.",
+"A(M): こんにちは。木村たけしです。￥B(F):メアリいハーアトです。あのう、留学生ですか。￥A(M):いいえ、日本人です。￥B(F):そうですか。何年生ですか。￥A(M):四年生です。","A(M): Hello. My name is Takeshi Kimura.;;B(F): I'm Mary Haat. Are you a foreign student?;;A(M):No, I am Japanese.;;B(F):I see. What grade are you in?;;A(M):I am in the fourth grade.",
+"A(F):すみません。これはいくらですか。￥B(M):それは３０００円です。￥A(F):高いですね。じゃあ、あの時計はいくらですか。￥B (M):あれは３５００円です。￥A (F):そうですか。あれも高いですね。￥B (M):これは１８００円ですよ。￥A (F):じゃあ、その時計おください。","A(F):Excuse me. How much is this?;;B(M):That's 3,000 yen.;;A(F):That's expensive. Then, how much is that watch?;;B (M):That one is 3,500 yen.;;A (F):I see. That one is expensive too.;;B (M):This one is 1800 yen.;;A (F):Well, give me that watch, please.",
