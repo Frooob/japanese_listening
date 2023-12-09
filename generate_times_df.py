@@ -2,7 +2,7 @@ from random import randrange
 import pandas as pd
 
 
-columns = ["Japanese", "English", "tts_file"]
+columns = ["Japanese", "English", "tts_file", "chapter"]
 
 df_data = []
 number_of_times = 40
@@ -22,7 +22,7 @@ for i in range(number_of_times):
     else:
         english_timestamp = f"{hour}:{minute} {am_pm}"
 
-    df_data.append({"Japanese": "", "English": english_timestamp, "tts_file": ""})
+    df_data.append({"Japanese": "", "English": english_timestamp, "tts_file": "", "chapter": "time"})
     print(english_timestamp)
 
 print(df_data)

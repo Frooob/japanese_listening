@@ -1,22 +1,23 @@
-Japanese,English,tts_file
-学生です,"It's a student.",
-12時半です。,12:30,
-479,479,
-1234,479,
-103721,103721,
-17,17,
-23,,
-お父さんは会社員ですか。,Is your father a company employee?,
-すみません。郵便局はどこですか。,Excuse me. Where is the post office?,
-私は日本語を勉強しています。,I'm studying Japanese.,
-それはソラさんの本です。,That is Sora's book.,
-ゆいさん もう日本人です,Yui is also Japanese.,
-私は日本人です。,I'm Japanese.,
-これは誰のカバンですか。,Whose bag is this?,
-山田さんは学生じゃないです。,Yamada-san is not a student.,
-メアリーさんはアメリカ人ですか。,Is Mary an American?,
-武さんは大ガウ陰性じゃありません。,Take-san is not a university student.,
-ロバートさんのせんこおは文学ですね。,"Robert's major is literature, isn't it?",
-これは肉じゃないですね。,"This is not meat, is it?",
-とんかつは魚じゃありませんですよ。,"Tonkatsu is not fish, you know.",
-私は学生じゃありません。,I'm not a student.,
+Japanese,English,tts_file,chapter
+学生です,"It's a student.",,1
+12時半です。,12:30,,time
+479,479,,number
+1234,479,,number
+103721,103721,,number
+17,17,,number
+23,,,number
+お父さんは会社員ですか。,Is your father a company employee?,,1
+すみません。郵便局はどこですか。,Excuse me. Where is the post office?,,2
+私は日本語を勉強しています。,I'm studying Japanese.,,1
+それはソラさんの本です。,That is Sora's book.,,2
+ゆいさん もう日本人です,Yui is also Japanese.,,1
+私は日本人です。,I'm Japanese.,,1
+これは誰のカバンですか。,Whose bag is this?,,2
+山田さんは学生じゃないです。,Yamada-san is not a student.,,1
+メアリーさんはアメリカ人ですか。,Is Mary an American?,,1
+武さんは大ガウ陰性じゃありません。,Take-san is not a university student.,,1
+ロバートさんのせんこおは文学ですね。,"Robert's major is literature, isn't it?",,2
+これは肉じゃないですね。,"This is not meat, is it?",,2
+とんかつは魚じゃありませんですよ。,"Tonkatsu is not fish, you know.",,2
+私は学生じゃありません。,I'm not a student.,,1
+あの学生は留学生じゃありません。,That student is not an exchange student.,,2

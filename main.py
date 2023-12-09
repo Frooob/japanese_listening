@@ -6,11 +6,11 @@ from tts import tts, tts_dialog
 def text_is_dialog(text:str):
     return text.startswith("A") or text.startswith("B")
 
-def add_tts(df, master_df):
+def add_tts(new_df, master_df):
     ttsed_sentences = set(master_df["Japanese"])
     master_df.index = master_df["Japanese"]
     append_rows = []
-    for index, row in df.iterrows():
+    for index, row in new_df.iterrows():
         japanese_sentence = row['Japanese']
         try:
             japanese_sentence = str(int(japanese_sentence))
@@ -43,8 +43,6 @@ def add_english_texts_to_master_df(df, master_df):
         english_translation_new_df = row['English']
         try:
             english_translation_master_df = master_df.loc[index, "English"]
-            if len(english_translation_master_df) > 1:
-                english_translation_master_df = english_translation_master_df[0]
         except KeyError:
             # print(f"KeyError for {index}")
             continue
@@ -72,8 +70,8 @@ def digest_df(df_path, master_df_path):
 
 if __name__ == "__main__":
     master_df_path = "./master_df.csv"
-    # digest_df("input_sentences/genki.csv", master_df_path)
+    digest_df("input_sentences/genki.csv", master_df_path)
     # digest_df("input_sentences/simple_dialog.csv", master_df_path)
     # digest_df("input_sentences/numbers.csv", master_df_path)
-    digest_df("input_sentences/times_translated.csv", master_df_path)
+    # digest_df("input_sentences/times_translated.csv", master_df_path)
 
