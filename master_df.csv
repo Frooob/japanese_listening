@@ -6,7 +6,7 @@ Japanese,English,tts_file,chapter
 479,479,./samples/out_9f5032cde05848909ffed5149f09c635.mp3,number
 103721,103721,./samples/out_e74eb1e2c14a4a528316a4d9b05ab480.mp3,number
 17,17,./samples/out_2e389a4dde294c1d801f6d651e2d4caa.mp3,number
-23,,./samples/out_54d396dd349d4f3687ef72833406f49b.mp3,number
+23,23,./samples/out_54d396dd349d4f3687ef72833406f49b.mp3,number
 お父さんは会社員ですか。,Is your father a company employee?,./samples/out_afeaad0f7a4241c5b0069c15304f13fe.mp3,1
 すみません。郵便局はどこですか。,Excuse me. Where is the post office?,./samples/out_56159d4d41a24a718f76e01949eeed0b.mp3,2
 私は日本語を勉強しています。,I'm studying Japanese.,./samples/out_e093fe92957140379e55c68ff9648467.mp3,1
