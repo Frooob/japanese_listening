@@ -6,6 +6,7 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse, Response
 from pydantic import BaseModel
 import os
+from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
 
@@ -27,6 +28,16 @@ translations_dict = {record["id"]:Translation(**record) for record in df_records
 
 app = FastAPI()
 
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
@@ -46,9 +57,12 @@ def read_translations_chapter(chapter: str):
     return [translation for translation in translations_dict.values() if translation.chapter == chapter]
 
 # get random_translation
-@app.get("/random_translation")
-def read_random_translation():
-    return Translation(**main_df.sample().to_dict(orient="records")[0])
+@app.get("/random_translation/{chapter}")
+def read_random_translation(chapter: str = None):
+    if chapter:
+        return Translation(**main_df[main_df["chapter"] == chapter].sample().to_dict(orient="records")[0])
+    else:
+        return Translation(**main_df.sample().to_dict(orient="records")[0])
 
 @app.get("/audio/{audio_id}")
 def get_audio(audio_id: str):
