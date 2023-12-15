@@ -1,4 +1,5 @@
 import os
+from typing import Optional
 from dotenv import load_dotenv
 import pandas as pd
 
@@ -56,9 +57,9 @@ def read_chapters():
 def read_translations_chapter(chapter: str):
     return [translation for translation in translations_dict.values() if translation.chapter == chapter]
 
-# get random_translation
-@app.get("/random_translation/{chapter}")
-def read_random_translation(chapter: str = None):
+# get random_translation example: /random_translation/?chapter=1
+@app.get("/random_translation/")
+def read_random_translation(chapter: Optional[str] = None):
     if chapter:
         return Translation(**main_df[main_df["chapter"] == chapter].sample().to_dict(orient="records")[0])
     else:

@@ -15,7 +15,6 @@ const ChaptersComponent = () => {
       const chapterNames = await fetchChapters();
       setChapters(chapterNames.sort());
     };
-    console.log(chapters);
 
     loadChapters();
   }, []); // Empty dependency array means this effect runs once on mount
