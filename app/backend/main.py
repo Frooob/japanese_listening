@@ -8,7 +8,6 @@ from fastapi.responses import FileResponse, Response
 from pydantic import BaseModel
 import os
 from fastapi.middleware.cors import CORSMiddleware
-from furigana.furigana import print_html
 
 load_dotenv()
 

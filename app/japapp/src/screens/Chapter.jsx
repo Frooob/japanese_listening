@@ -2,23 +2,27 @@
 
 import React, { useEffect, useState } from 'react';
 import TranslationCard from '../components/TranslationCard';
-import { randomTranslation } from '../api/apiService';
+import { randomChapterTranslation } from '../api/apiService';
 import Translation from '../models/Translation';
 import Typography from '@mui/material/Typography';
 import WordCard from '../components/WordCard';
 import Button from '@mui/material/Button';
 import { Box, Grid } from '@mui/material';
 
+import { useParams } from 'react-router-dom';
 
-const Home = () => {
+const Chapter = () => {
   // Get a random translation from the api in a sideeffect
   // Save the translation in state
   // Pass the translation to the TranslationCard component
 
   const [translation, setTranslation] = useState();
+  let { chapter } = useParams();
+
+  console.log(chapter);
 
   const loadTranslation = async () => {
-    const translationfetched = await randomTranslation();
+    const translationfetched = await randomChapterTranslation(chapter);
     // console.log(translationfetched);
     setTranslation(translationfetched);
     // console.log(translation)
@@ -27,7 +31,7 @@ const Home = () => {
   useEffect(() => {
     loadTranslation();
   }
-  , []);
+  , [chapter]);
 
 
 
@@ -48,4 +52,4 @@ const Home = () => {
     )
 };
 
-export default Home;
+export default Chapter;

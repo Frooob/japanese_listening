@@ -30,6 +30,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import DrawerChapters from './components/DrawerChapters';
 import { ListSubheader } from '@mui/material';
+import Chapter from './screens/Chapter';
 const drawerWidth = 150;
 
 
@@ -183,20 +184,19 @@ const App = () => {
                 ? theme.palette.grey[100]
                 : theme.palette.grey[900],
             flexGrow: 1,
-            // height: '200vh',
+            height: '200vh',
             overflow: 'auto',
           }}
         >    
         <Toolbar />
 
         <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-        <Grid container spacing={3}>
+        <Grid container spacing={2}>
           <Routes>
           <Route path="/" element={Home()} />
           <Route path="/learn" element={Learn()} />
+          <Route path="/chapter/:chapter" element={<Chapter />} />
           </Routes>
-          
-          {/* {Home()} */}
         </Grid>
         </Container>
         </Box>

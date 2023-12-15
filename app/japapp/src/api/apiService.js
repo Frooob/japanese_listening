@@ -39,6 +39,19 @@ export const randomTranslation = async () => {
   }
 }
 
+export const randomChapterTranslation = async (chapterId) => {
+  try {
+    const response = await axios.get(`${apiBaseUrl}/random_translation/?chapter=${chapterId}`);
+    const t = new Translation(response.data);
+    console.log("Fetched a random translation from apiService")
+    console.log(t)
+    return t;
+  } catch (error) {
+    console.error('Error fetching random translation:', error);
+    return null;
+  }
+}
+
 export const TranslationPlayer = ({audio_id}) => {
   console.log("TranslationPlayer called with audio_id: " + audio_id)
   return (
