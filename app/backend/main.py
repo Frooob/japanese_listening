@@ -52,10 +52,13 @@ def read_translation(translation_id: str):
 def read_chapters():
     return main_df["chapter"].unique().tolist()
 
-# get all translations of a specific chapter
-@app.get("/translations_chapter/{chapter}")
-def read_translations_chapter(chapter: str):
-    return [translation for translation in translations_dict.values() if translation.chapter == chapter]
+# get all translations (optional only of a chapter)
+@app.get("/translations/")
+def read_translations_chapter(chapter: Optional[str] = None):
+    if not chapter:
+        return [translation for translation in translations_dict.values()]
+    else:
+        return [translation for translation in translations_dict.values() if translation.chapter == chapter]
 
 # get random_translation example: /random_translation/?chapter=1
 @app.get("/random_translation/")
