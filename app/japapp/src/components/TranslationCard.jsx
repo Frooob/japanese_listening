@@ -49,8 +49,8 @@ const TranslationCard = ({translation}) => {
 
                 { visible &&  (
                     <Box sx = {{display: "flex", alignItems:"center"}}>
-                        <IconButton aria-label="delete">
-                        <VisibilityIcon onClick={()=>setVisible(false)}/ >
+                        <IconButton aria-label="delete" onClick={()=>setVisible(false)}>
+                        <VisibilityIcon / >
                         </IconButton>
                     </Box>
                 )}
@@ -58,9 +58,9 @@ const TranslationCard = ({translation}) => {
 
                 { !visible &&  (
                     <Box sx = {{display: "flex", alignItems:"center"}}>
-                                                <IconButton aria-label="delete">
+                                                <IconButton aria-label="delete" onClick={()=>setVisible(true)}>
 
-                        <VisibilityOffIcon onClick={()=>setVisible(true)}/>
+                        <VisibilityOffIcon />
                         </IconButton>
 
                     </Box>

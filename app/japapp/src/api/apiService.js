@@ -3,8 +3,7 @@ import Translation from '../models/Translation.js';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 
-const apiBaseUrl = 'http://localhost:8000'; // Replace with your API base URL
-
+const apiBaseUrl = process.env.REACT_APP_API_URL; // Replace with your API base URL
 
 export const fetchChapters = async () => {
   try {
