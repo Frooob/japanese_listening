@@ -19,13 +19,10 @@ const Chapter = () => {
   const [translation, setTranslation] = useState();
   let { chapter } = useParams();
 
-  console.log(chapter);
 
   const loadTranslation = async () => {
     const translationfetched = await randomChapterTranslation(chapter);
-    // console.log(translationfetched);
     setTranslation(translationfetched);
-    // console.log(translation)
   };
 
   useEffect(() => {

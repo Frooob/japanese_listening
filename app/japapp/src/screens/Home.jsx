@@ -19,9 +19,7 @@ const Home = () => {
 
   const loadTranslation = async () => {
     const translationfetched = await randomTranslation();
-    // console.log(translationfetched);
     setTranslation(translationfetched);
-    // console.log(translation)
   };
 
   useEffect(() => {

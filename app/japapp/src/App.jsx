@@ -143,14 +143,7 @@ const JappDrawer = ({open, toggleDrawer}) => {
         <ListItemText primary="Home" />
       </ListItemButton>
     </Link>
-    <Link to="/learn" style={{ textDecoration: 'none', color: 'black' }}>
-      <ListItemButton>
-        {/* <ListItemIcon>
-          <ShoppingCartIcon />
-        </ListItemIcon> */}
-        <ListItemText primary="Learn"/>
-      </ListItemButton>
-    </Link>
+    {/* <Link to="/learn" style={{ textDecoration: 'none', color: 'black' }}><ListItemButton> <ListItemText primary="Learn"/></ListItemButton></Link> */}
     <Divider sx={{ my: 1 }} />
     <ListSubheader component="div" >
       Chapters

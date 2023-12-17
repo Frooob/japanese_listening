@@ -11,6 +11,7 @@ import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import React, { useEffect, useState } from 'react';
 import { IconButton } from '@mui/material';
+import Button from '@mui/material/Button';
 
 const theme = createTheme({
     components: {
@@ -42,13 +43,13 @@ const TranslationCard = ({translation}) => {
       }
       , [translation]);
     return (
-    <Grid xs={12} sm={6}>
+    <Grid xs={12} sm={6} >
         <ThemeProvider theme={theme}>
             <Paper elevation={3}>
                 <Box paddingX={1}>
 
                 { visible &&  (
-                    <Box sx = {{display: "flex", alignItems:"center"}}>
+                    <Box sx = {{display: "flex", alignItems:"center"}} justifyContent="center">
                         <IconButton aria-label="delete" onClick={()=>setVisible(false)}>
                         <VisibilityIcon / >
                         </IconButton>
@@ -57,7 +58,7 @@ const TranslationCard = ({translation}) => {
 
 
                 { !visible &&  (
-                    <Box sx = {{display: "flex", alignItems:"center"}}>
+                    <Box sx = {{display: "flex", alignItems:"center"}} justifyContent="center">
                                                 <IconButton aria-label="delete" onClick={()=>setVisible(true)}>
 
                         <VisibilityOffIcon />
@@ -70,33 +71,37 @@ const TranslationCard = ({translation}) => {
 
 
                     <Box>
-                                       {/* console.log(translation.id) */}
                                        <TranslationPlayer audio_id={translation.id}/>
                
                     </Box>
 
                     { visible &&  (
                         <> 
-                                            <Box sx = {{display: "flex", alignItems:"center"}}>
-                    <Typography variant="subtitle1">
-                        {translation.chapter}
+                                            <Box sx = {{display: "flex", alignItems:"center"}} justifyContent="center">
+                    <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
+                        Chapter: {translation.chapter}
                     </Typography>
                     </Box>
                                        <Box sx = {{display: "flex", alignItems:"center"}}>
                                        {/* <AccessTime sx={{width: 12.5}}/> */}
-                                       <Typography variant="body2" marginLeft={.5}>
-                                           {translation.japanese}
+                                       <Typography variant="body2" marginLeft={.5} marginTop={.8}>
+                                       <b>日本語:</b> {translation.japanese}
                                        </Typography>
                                    </Box>
-                                   <Box>
-                                   <Typography variant="body2" marginLeft={.5}>
-                                           {translation.english}
+                                   <Box sx = {{display: "flex", alignItems:"center"}} >
+                                   <Typography variant="body2" marginLeft={.5} marginTop={.5} >
+                                   <b>English:</b> {translation.english}
                                        </Typography>
                                    </Box>
 
                         </>
                     )
                     }
+                    { !visible &&  (
+                        <Box sx = {{display: "flex", alignItems:"center"}} justifyContent="center">
+          <Button onClick={()=>setVisible(true)}>Show solution</Button>
+        </Box>
+                    )}
 
                 </Box>
             </Paper>

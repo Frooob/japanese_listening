@@ -3,6 +3,16 @@
 
 export GOOGLE_APPLICATION_CREDENTIALS=path/to/json.json"
 
+
+## deploy
+````
+npm install
+npm run build
+cp -r build /var/www/japapp 
+systemctl restart nginx
+systemctl restart japapp_backend  # Is this necessary?
+````
+
 ## Backend
 
 Is built with FastAPI. To start the backend run the following command to start the server.
