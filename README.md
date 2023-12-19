@@ -7,10 +7,11 @@ export GOOGLE_APPLICATION_CREDENTIALS=path/to/json.json"
 ## deploy
 ````
 npm install
+cd app/japapp/
 npm run build
 cp -r build /var/www/japapp 
 systemctl restart nginx
-systemctl restart japapp_backend  # Is this necessary?
+systemctl restart japapp_api  # Is this necessary?
 ````
 
 ## Backend

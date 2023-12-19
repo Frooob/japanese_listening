@@ -57,7 +57,12 @@ def digest_df(df_path, master_df_path):
     master_df_before = master_df.copy()
     df = pd.read_csv(df_path)
     master_df = add_tts(df, master_df)
-    master_df = add_english_texts_to_master_df(df, master_df)
+    try:
+        master_df = add_english_texts_to_master_df(df, master_df)
+    except Exception as e:
+        print("failed to add english texts to master df")
+        print(e)
+
     master_df.reset_index(drop=True, inplace=True)
     master_df_before.reset_index(drop=True, inplace=True)
 
@@ -74,4 +79,7 @@ if __name__ == "__main__":
     # digest_df("input_sentences/simple_dialog.csv", master_df_path)
     # digest_df("input_sentences/numbers.csv", master_df_path)
     # digest_df("input_sentences/times_translated.csv", master_df_path)
+    digest_df("input_sentences/genki_chapter_2.csv", master_df_path)
+    digest_df("input_sentences/genki_chapter_3.csv", master_df_path)
+    digest_df("input_sentences/genki_chapter_4.csv", master_df_path)
 
